@@ -39,3 +39,13 @@ nav {
     font-size: 14px;
   }
 }
+
+.burger {
+  display: none;
+  div {
+    width: 25px;
+    height: 5px;
+    background-color: white;
+    margin-top: 5px;
+  }
+}
