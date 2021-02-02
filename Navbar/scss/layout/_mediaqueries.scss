@@ -5,6 +5,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
   #nav-links {
     position: absolute;
     right: 0px;
@@ -15,5 +18,15 @@
     flex-direction: column;
     align-items: center;
     width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    li {
+      opacity: 0;
+    }
+  }
+
+  .burger {
+    display: block;
+    cursor: pointer;
   }
 }
