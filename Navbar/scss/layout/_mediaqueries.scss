@@ -1,6 +1,6 @@
 @media screen and (max-width: 1024px) {
   #nav-links {
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -8,7 +8,7 @@
   body {
     overflow-x: hidden;
   }
-  #nav-links {
+  .nav-links {
     position: absolute;
     right: 0px;
     height: 92vh;

@@ -1,6 +1,13 @@
-const nav = document.querySelector('#nav-links')
-const burg = document.getElementById('burger');
-burg.onclick = () => {
-document.body.style = "overflow-x: none";
-nav.style = "transform: translateX(0%); "
+
+
+const navslide = () => {
+  const burg = document.querySelector('#burger');
+  const nav = document.querySelector('.nav-links')
+
+  burg.addEventListener('click', () => {
+    nav.classList.toggle('nav-active');
+  });
+  
 }
+
+navslide();
