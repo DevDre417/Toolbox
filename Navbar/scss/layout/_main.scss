@@ -1,11 +1,7 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
-}
-
-body {
-  font-family: "Yusei Magic", sans-serif;
 }
 
 nav {
@@ -14,6 +10,7 @@ nav {
   align-items: center;
   min-height: 8vh;
   background-color: #5d4954;
+  font-family: "Yusei Magic", sans-serif;
 }
 
 .logo {
@@ -25,7 +22,6 @@ nav {
 
 .nav-links {
   display: flex;
-
   justify-content: space-around;
   width: 30%;
   li {
@@ -40,13 +36,14 @@ nav {
   }
 }
 
-#burger {
+.burger {
   display: none;
+  cursor: pointer;
   div {
     width: 25px;
     height: 5px;
     background-color: white;
-    margin-top: 5px;
+    margin: 5px;
   }
 }
 

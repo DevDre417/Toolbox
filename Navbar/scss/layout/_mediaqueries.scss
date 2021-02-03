@@ -1,6 +1,6 @@
 @media screen and (max-width: 1024px) {
-  #nav-links {
-    width: 60%;
+  .nav-links {
+    width: 50%;
   }
 }
 
@@ -25,8 +25,7 @@
     }
   }
 
-  #burger {
+  .burger {
     display: block;
-    cursor: pointer;
   }
 }
