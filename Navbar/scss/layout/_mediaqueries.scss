@@ -1,6 +1,6 @@
 @media screen and (max-width: 1024px) {
   .nav-links {
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -9,7 +9,7 @@
     overflow-x: hidden;
   }
   .nav-links {
-    position: absolute;
+    position: fixed;
     right: 0px;
     height: 92vh;
     top: 8vh;
@@ -27,5 +27,12 @@
 
   .burger {
     display: block;
+    cursor: pointer;
+    z-index: 1;
   }
+}
+
+/////
+.nav-active {
+  transform: translateX(0%);
 }
